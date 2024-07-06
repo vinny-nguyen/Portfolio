@@ -1,5 +1,7 @@
-import { QuartzConfig } from "./quartz/cfg"
-import * as Plugin from "./quartz/plugins"
+const config: QuartzConfig = {
+  configuration: import { QuartzConfig } from "./quartz/cfg"
+  plugins: import * as Plugin from "./quartz/plugins"
+}
 
 /**
  * Quartz 4.0 Configuration
@@ -16,7 +18,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://vinny-nguyen.github.io/Portfolio/", //put github page url or custom domain here
+    baseUrl: "vinny-nguyen.github.io/Portfolio/", //put github page url or custom domain here
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
