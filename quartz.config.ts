@@ -6,16 +6,17 @@ import * as Plugin from "./quartz/plugins"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+//https://quartz.jzhao.xyz/configuration for details
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Vincent Nguyen 🥊",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://vinny-nguyen.github.io/Portfolio/", //put github page url or custom domain here
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
