@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz", //put github page url or custom domain here
+    baseUrl: "https://vinny-nguyen.github.io/Portfolio/", //put github page url or custom domain here
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
