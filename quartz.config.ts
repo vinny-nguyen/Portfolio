@@ -1,7 +1,5 @@
-const config: QuartzConfig = {
-  configuration: import { QuartzConfig } from "./quartz/cfg"
-  plugins: import * as Plugin from "./quartz/plugins"
-}
+import { QuartzConfig } from "./quartz/cfg"
+import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4.0 Configuration
