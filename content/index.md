@@ -1,6 +1,6 @@
 ---
-title: Vince Nguyen
-description: Vince Nguyen - Computer Science @ University of Waterloo
+title: Vincent Nguyen
+description: Vincent Nguyen - Computer Science @ University of Waterloo
 draft: false
 tags:
     - here comes the sun
